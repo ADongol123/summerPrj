@@ -1,0 +1,43 @@
+.chat {
+  flex: 0.7;
+  flex-grow: 1;
+  overflow-y: scroll;
+  padding-bottom: 150px;
+}
+.chat___messages {
+  background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+}
+.chat___header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+}
+.header___right > p {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.chat___channelName {
+  display: flex;
+  text-transform: lowercase;
+}
+.chat___channelName > .MuiSugIcon-root {
+  margin-left: 10px;
+  font-size: 18px;
+}
+.header___right > p > .MuiSugIcon-root {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.chat___fotter {
+  width: 88%;
+
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 50px;
+  margin-left: -150px;
+  height: 62px;
+}

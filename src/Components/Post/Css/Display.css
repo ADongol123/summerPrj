@@ -1,0 +1,60 @@
+.display_main > .MuiSvgIcon-root {
+    color: gray;
+    margin-bottom: 5px;
+  }
+  .display_main > h3 {
+    border: 0px solid #cccccc;
+    padding: 5px;
+    font-family: Tahoma, sans-serif;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+  }
+  .content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 0.9em;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  .modal_main {
+    overflow-y: scroll;
+  }
+  .content-table thead tr {
+    background-color: #ffa726;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    width: 1800px;
+  }
+  .content-table th,
+.content-table td {
+  padding: 12px 15px;
+  height: 80px;
+  font-size: 20px;
+}
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .content-table tbody tr td .table_button {
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-left: 140px;
+  }
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  .display_main button {
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-left: 250px;
+    margin-top: -20px;
+  }
+  

@@ -1,0 +1,114 @@
+.profileinfo {
+    display: flex;
+    flex: 0.4;
+  }
+  .profileinfo__left {
+    flex: 0.15;
+    margin-top: 15px;
+    margin-right: 85px;
+    border-radius: 20px;
+    margin-left: 15px;
+    height: 300px;
+  }
+  .profileinfo__right {
+    flex: 0.75;
+    width: 1300px;
+  }
+  .profileright__titile {
+    margin-top: 10px;
+    border-radius: 20pxz;
+    margin-bottom: -10px;
+    background-color: white;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  }
+  .profileright__titile > p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 20px;
+  }
+  .profile-card {
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .card-header {
+    background: #2c3a47;
+    padding: 60px 40px;
+  }
+  
+  .pic {
+    display: inline-block;
+    padding: 8px;
+    background: linear-gradient(130deg, #74b9ff, #e66767);
+    margin: auto;
+    border-radius: 50%;
+    background-size: 200% 200%;
+    animation: animated-gradient 2s linear infinite;
+  }
+  
+  @keyframes animated-gradient {
+    25% {
+      background-position: left bottom;
+    }
+    50% {
+      background-position: right bottom;
+    }
+    75% {
+      background-position: right top;
+    }
+    100% {
+      background-position: left top;
+    }
+  }
+  
+  .pic img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .name {
+    color: #f2f2f2;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  
+  .desc {
+    font-size: 18px;
+    color: #ffa726;
+  }
+  
+  .sm {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .item {
+    flex: 1;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #ffa726;
+  }
+  
+  .item span {
+    display: block;
+    color: #2c3a47;
+    font-size: 30px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .profileinfo {
+      flex-direction: column;
+    }
+    .profile-card {
+      margin-left: 100px;
+      width: 300px;
+      height: 300px;
+    }
+  }
+  

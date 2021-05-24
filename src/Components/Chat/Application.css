@@ -1,0 +1,28 @@
+.application {
+  display: grid;
+  place-items: center;
+  background-color: #dadbd3;
+  height: 100vh;
+  margin-left: 10px;
+}
+.application__body {
+  display: flex;
+  background-color: #ededed;
+  width: 90vw;
+  height: 90vh;
+
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.15);
+}
+.font {
+  margin-top: 300px;
+  margin-left: 500px;
+  align-items: center;
+  font-size: 100px;
+}
+@media screen and (max-width: 600px) {
+  .font {
+    margin-left: 40px;
+    margin-top: 300px;
+    font-size: 50px;
+  }
+}

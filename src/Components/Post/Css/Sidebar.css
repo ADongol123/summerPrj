@@ -1,0 +1,17 @@
+.ssidebar {
+    display: flex;
+    padding: 25px 10px;
+    flex: 0.33;
+    height: 10px;
+  }
+  .ssidebar > .display_main {
+    margin-top: 50px;
+    margin-left: -150px;
+  }
+  @media screen and (max-width: 600px) {
+    .ssidebar {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
